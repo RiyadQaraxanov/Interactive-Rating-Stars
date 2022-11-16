@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+    *{
+      margin: 0;
+      box-sizing: border-box;
+    }
+    body{
+      background-color: hsl(216, 12%, 8%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .container1{
+      width: 40%;
+      height: 400px;
+      background-color: hsl(213, 19%, 18%);
+      border-radius: 25px;
+      padding: 2%;
+    }
+    .star-div{
+      padding: 10px;
+      padding-bottom: 10px;
+      background-color: hsl(218, 7%, 29%);
+      border-radius: 50%;
+      align-items: center;
+      height: 37px;
+      width: 37px;
+    }
+    .h1{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      color: white;
+      margin-top: 25px;
+    }
+    h3{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      color: hsl(217, 12%, 63%);
+      margin-top: 25px;
+    }
+    .rating-numbers{
+      display: flex;
+      margin-top: 25px;
+      width: 100%;
+      justify-content: space-between;
+    }
+    .numbers{
+      width: 37px;
+      height: 37px;
+      background-color: hsl(218, 7%, 29%);
+      border-radius: 50%;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: hsl(217, 12%, 63%);
+      cursor: pointer;
+      transition: 0.2s;
+      font-size: 25px;
+      padding-bottom: 5px;
+    }
+    .numbers:hover{
+      background-color: hsl(216, 12%, 54%);
+      transition: 0.2s;
+    }
+    .btn{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      border-radius: 50px;
+      background-color: hsl(25, 97%, 53%);
+      height: 100%;
+      width: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-weight: 700;
+      transition: 0.2s;
+    }
+    .btn:hover{
+      background-color: white;
+      color: hsl(25, 97%, 53%);
+      transition: 0.2s;
+      cursor: pointer;
+    }
+    .btn-container{
+      height: 50px;
+      width: 100%;
+      margin-top: 25px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .active{
+      color: hsl(25, 97%, 53%);
+    }
+
+
+    .container2{
+      width: 40%;
+      height: 400px;
+      background-color: hsl(213, 19%, 18%);
+      border-radius: 25px;
+      padding: 3%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      display: none;
+    }
+    .ratedOutput{
+      background-color: hsl(218, 7%, 29%);
+      padding: 5px 15px;
+      border-radius: 25px;
+      font-family: 'Montserrat', sans-serif;
+      color:hsl(25, 97%, 53%);
+    }
